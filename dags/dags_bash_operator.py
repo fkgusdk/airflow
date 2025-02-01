@@ -29,6 +29,3 @@ with DAG(
     )
 
     bash_t1 >> bash_t2 # Task 순서 (t1 -> t2)
-
-if __name__ == "__main__":
-    dag.test()
